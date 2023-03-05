@@ -53,7 +53,6 @@ p {
 button {
   background-color: transparent;
   border: none;
-  cursor: pointer;
   transition: all 200ms ease-in-out;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -87,14 +86,11 @@ header.dark {
   background: url('../images/icon-moon.svg') no-repeat center center/cover;
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 
 .btn-theme.dark {
   background-image: url('../images/icon-sun.svg');
-}
-
-.btn-theme:hover {
-  scale: 0.9;
 }
 
 .new-todo {
@@ -172,11 +168,11 @@ main .container {
   position: absolute;
   right: 25px;
   transition: all 200ms ease-in-out;
+  cursor: pointer;
   display: none;
 }
 
 .btn-delete:hover {
-  opacity: 0.9;
   scale: 0.9;
 }
 
@@ -278,6 +274,7 @@ input[type='checkbox'] {
 .btn-clear {
   font-size: 16px;
   color: var(--dark-grayish-blue);
+  cursor: pointer;
 }
 
 .btn-clear:hover {
